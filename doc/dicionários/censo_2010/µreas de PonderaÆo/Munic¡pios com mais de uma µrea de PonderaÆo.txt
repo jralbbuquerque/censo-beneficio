@@ -1,0 +1,1042 @@
+Número Município Nome                        Aponds
+     1 1100023   Ariquemes                        4
+     2 1100049   Cacoal                           4
+     3 1100106   Guajará-Mirim                    2
+     4 1100114   Jaru                             2
+     5 1100122   Ji-Paraná                        6
+     6 1100130   Machadinho D'Oeste               2
+     7 1100155   Ouro Preto do Oeste              2
+     8 1100189   Pimenta Bueno                    2
+     9 1100205   Porto Velho                     22
+    10 1100288   Rolim de Moura                   2
+    11 1100304   Vilhena                          3
+    12 1100452   Buritis                          2
+    13 1200203   Cruzeiro do Sul                  3
+    14 1200401   Rio Branco                       8
+    15 1301209   Coari                            2
+    16 1301704   Humaitá                          2
+    17 1301852   Iranduba                         2
+    18 1301902   Itacoatiara                      3
+    19 1302504   Manacapuru                       3
+    20 1302603   Manaus                          33
+    21 1302702   Manicoré                         2
+    22 1303403   Parintins                        3
+    23 1304203   Tefé                             2
+    24 1400100   Boa Vista                       14
+    25 1500107   Abaetetuba                       5
+    26 1500206   Acará                            2
+    27 1500404   Alenquer                         2
+    28 1500602   Altamira                         5
+    29 1500800   Ananindeua                      13
+    30 1500909   Augusto Corrêa                   2
+    31 1501303   Barcarena                        3
+    32 1501402   Belém                           44
+    33 1501501   Benevides                        2
+    34 1501709   Bragança                         4
+    35 1501782   Breu Branco                      2
+    36 1501808   Breves                           3
+    37 1502103   Cametá                           4
+    38 1502202   Capanema                         2
+    39 1502301   Capitão Poço                     2
+    40 1502400   Castanhal                        8
+    41 1502707   Conceição do Araguaia            2
+    42 1502939   Dom Eliseu                       2
+    43 1503200   Igarapé-Açu                      2
+    44 1503309   Igarapé-Miri                     2
+    45 1503457   Ipixuna do Pará                  2
+    46 1503606   Itaituba                         4
+    47 1503705   Itupiranga                       2
+    48 1503804   Jacundá                          2
+    49 1503903   Juruti                           2
+    50 1504208   Marabá                           4
+    51 1504422   Marituba                         3
+    52 1504703   Moju                             2
+    53 1504802   Monte Alegre                     2
+    54 1505064   Novo Repartimento                2
+    55 1505106   Óbidos                           2
+    56 1505304   Oriximiná                        2
+    57 1505486   Pacajá                           2
+    58 1505502   Paragominas                      4
+    59 1505536   Parauapebas                      7
+    60 1505809   Portel                           2
+    61 1506138   Redenção                         3
+    62 1506187   Rondon do Pará                   2
+    63 1506195   Rurópolis                        2
+    64 1506500   Santa Isabel do Pará             2
+    65 1506708   Santana do Araguaia              2
+    66 1506807   Santarém                        11
+    67 1507300   São Félix do Xingu               4
+    68 1507607   São Miguel do Guamá              2
+    69 1507953   Tailândia                        2
+    70 1508001   Tomé-Açu                         2
+    71 1508084   Tucumã                           2
+    72 1508100   Tucuruí                          4
+    73 1508159   Uruará                           2
+    74 1508209   Vigia                            2
+    75 1508308   Viseu                            2
+    76 1508407   Xinguara                         2
+    77 1600303   Macapá                          19
+    78 1600600   Santana                          3
+    79 1702109   Araguaína                        7
+    80 1705508   Colinas do Tocantins             2
+    81 1709500   Gurupi                           4
+    82 1716109   Paraíso do Tocantins             2
+    83 1718204   Porto Nacional                   2
+    84 1721000   Palmas                          10
+    85 2100055   Açailândia                       4
+    86 2101202   Bacabal                          4
+    87 2101400   Balsas                           3
+    88 2101608   Barra do Corda                   3
+    89 2101707   Barreirinhas                     2
+    90 2102002   Bom Jardim                       2
+    91 2102325   Buriticupu                       2
+    92 2103000   Caxias                           7
+    93 2103208   Chapadinha                       2
+    94 2103307   Codó                             4
+    95 2103406   Coelho Neto                      2
+    96 2103505   Colinas                          2
+    97 2103604   Coroatá                          2
+    98 2103703   Cururupu                         2
+    99 2104057   Estreito                         2
+   100 2104800   Grajaú                           2
+   101 2105302   Imperatriz                      12
+   102 2105401   Itapecuru Mirim                  2
+   103 2105708   Lago da Pedra                    2
+   104 2107506   Paço do Lumiar                   4
+   105 2107803   Parnarama                        2
+   106 2108207   Pedreiras                        2
+   107 2108603   Pinheiro                         3
+   108 2109106   Presidente Dutra                 2
+   109 2109601   Rosário                          2
+   110 2109809   Santa Helena                     2
+   111 2109908   Santa Inês                       3
+   112 2110005   Santa Luzia                      3
+   113 2110500   São Bento                        2
+   114 2110708   São Domingos do Maranhão         2
+   115 2111201   São José de Ribamar              7
+   116 2111300   São Luís                        29
+   117 2111508   São Mateus do Maranhão           2
+   118 2112209   Timon                            7
+   119 2112308   Tuntum                           2
+   120 2112506   Tutóia                           2
+   121 2112704   Vargem Grande                    2
+   122 2112803   Viana                            2
+   123 2114007   Zé Doca                          2
+   124 2200400   Altos                            2
+   125 2201200   Barras                           2
+   126 2202208   Campo Maior                      2
+   127 2203701   Esperantina                      2
+   128 2203909   Floriano                         2
+   129 2205508   José de Freitas                  2
+   130 2207009   Oeiras                           2
+   131 2207702   Parnaíba                         5
+   132 2207900   Pedro II                         2
+   133 2208007   Picos                            3
+   134 2208403   Piripiri                         3
+   135 2210607   São Raimundo Nonato              2
+   136 2211001   Teresina                        16
+   137 2211100   União                            2
+   138 2300200   Acaraú                           2
+   139 2300309   Acopiara                         2
+   140 2300754   Amontada                         2
+   141 2301000   Aquiraz                          3
+   142 2301109   Aracati                          3
+   143 2301901   Barbalha                         2
+   144 2302107   Baturité                         2
+   145 2302206   Beberibe                         2
+   146 2302404   Boa Viagem                       2
+   147 2302503   Brejo Santo                      2
+   148 2302602   Camocim                          2
+   149 2302800   Canindé                          3
+   150 2303501   Cascavel                         3
+   151 2303709   Caucaia                         14
+   152 2304103   Crateús                          4
+   153 2304202   Crato                            6
+   154 2304285   Eusébio                          2
+   155 2304400   Fortaleza                       55
+   156 2304707   Granja                           2
+   157 2305001   Guaraciaba do Norte              2
+   158 2305233   Horizonte                        2
+   159 2305407   Icó                              2
+   160 2305506   Iguatu                           6
+   161 2305803   Ipu                              2
+   162 2305902   Ipueiras                         2
+   163 2306256   Itaitinga                        2
+   164 2306306   Itapagé                          2
+   165 2306405   Itapipoca                        5
+   166 2306553   Itarema                          2
+   167 2306900   Jaguaribe                        2
+   168 2307007   Jaguaruana                       2
+   169 2307304   Juazeiro do Norte               13
+   170 2307502   Lavras da Mangabeira             2
+   171 2307601   Limoeiro do Norte                2
+   172 2307650   Maracanaú                       11
+   173 2307700   Maranguape                       5
+   174 2308005   Massapê                          2
+   175 2308104   Mauriti                          2
+   176 2308401   Missão Velha                     2
+   177 2308500   Mombaça                          2
+   178 2308708   Morada Nova                      2
+   179 2309300   Nova Russas                      2
+   180 2309607   Pacajus                          2
+   181 2309706   Pacatuba                         3
+   182 2310209   Paracuru                         2
+   183 2310308   Parambu                          2
+   184 2310506   Pedra Branca                     2
+   185 2310704   Pentecoste                       2
+   186 2311306   Quixadá                          3
+   187 2311405   Quixeramobim                     3
+   188 2311801   Russas                           3
+   189 2312205   Santa Quitéria                   2
+   190 2312304   São Benedito                     2
+   191 2312403   São Gonçalo do Amarante          2
+   192 2312908   Sobral                           9
+   193 2313104   Tabuleiro do Norte               2
+   194 2313302   Tauá                             2
+   195 2313401   Tianguá                          3
+   196 2313500   Trairi                           2
+   197 2314003   Várzea Alegre                    2
+   198 2314102   Viçosa do Ceará                  2
+   199 2400208   Açu                              2
+   200 2401008   Apodi                            2
+   201 2402006   Caicó                            3
+   202 2402600   Ceará-Mirim                      3
+   203 2403103   Currais Novos                    2
+   204 2403251   Parnamirim                      11
+   205 2407104   Macaíba                          2
+   206 2407203   Macau                            2
+   207 2408003   Mossoró                         13
+   208 2408102   Natal                           23
+   209 2408300   Nova Cruz                        2
+   210 2411205   Santa Cruz                       2
+   211 2412005   São Gonçalo do Amarante          4
+   212 2412203   São José de Mipibu               2
+   213 2501807   Bayeux                           4
+   214 2503209   Cabedelo                         3
+   215 2503704   Cajazeiras                       3
+   216 2504009   Campina Grande                  21
+   217 2504306   Catolé do Rocha                  2
+   218 2506004   Esperança                        2
+   219 2506301   Guarabira                        3
+   220 2507507   João Pessoa                     12
+   221 2508901   Mamanguape                       2
+   222 2509701   Monteiro                         2
+   223 2510808   Patos                            5
+   224 2512101   Pombal                           2
+   225 2512507   Queimadas                        2
+   226 2513703   Santa Rita                       6
+   227 2515302   Sapé                             2
+   228 2516201   Sousa                            3
+   229 2600054   Abreu e Lima                     5
+   230 2600104   Afogados da Ingazeira            2
+   231 2600500   Águas Belas                      2
+   232 2600708   Aliança                          2
+   233 2601102   Araripina                        3
+   234 2601201   Arcoverde                        3
+   235 2601409   Barreiros                        2
+   236 2601706   Belo Jardim                      3
+   237 2601904   Bezerros                         3
+   238 2602001   Bodocó                           2
+   239 2602100   Bom Conselho                     2
+   240 2602209   Bom Jardim                       2
+   241 2602308   Bonito                           2
+   242 2602605   Brejo da Madre de Deus           2
+   243 2602803   Buíque                           2
+   244 2602902   Cabo de Santo Agostinho          8
+   245 2603454   Camaragibe                       7
+   246 2604007   Carpina                          3
+   247 2604106   Caruaru                         12
+   248 2604205   Catende                          2
+   249 2604908   Cumaru                           2
+   250 2605103   Custódia                         2
+   251 2605202   Escada                           2
+   252 2605301   Exu                              2
+   253 2605806   Frei Miguelinho                  2
+   254 2606002   Garanhuns                        7
+   255 2606200   Goiana                           3
+   256 2606408   Gravatá                          4
+   257 2606804   Igarassu                         5
+   258 2607208   Ipojuca                          3
+   259 2607653   Itambé                           2
+   260 2607901   Jaboatão dos Guararapes         17
+   261 2608107   João Alfredo                     2
+   262 2608800   Lajedo                           2
+   263 2608909   Limoeiro                         2
+   264 2609402   Moreno                           2
+   265 2609501   Nazaré da Mata                   2
+   266 2609600   Olinda                          15
+   267 2609907   Ouricuri                         2
+   268 2610004   Palmares                         2
+   269 2610608   Paudalho                         2
+   270 2610707   Paulista                        13
+   271 2610905   Pesqueira                        3
+   272 2611002   Petrolândia                      2
+   273 2611101   Petrolina                       14
+   274 2611606   Recife                          40
+   275 2611804   Ribeirão                         2
+   276 2612208   Salgueiro                        2
+   277 2612505   Santa Cruz do Capibaribe         4
+   278 2612604   Santa Maria da Boa Vista         2
+   279 2613008   São Bento do Una                 2
+   280 2613107   São Caitano                      2
+   281 2613602   São José do Egito                2
+   282 2613701   São Lourenço da Mata             5
+   283 2613909   Serra Talhada                    3
+   284 2614105   Sertânia                         2
+   285 2614204   Sirinhaém                        2
+   286 2614501   Surubim                          3
+   287 2615300   Timbaúba                         2
+   288 2615409   Toritama                         2
+   289 2616407   Vitória de Santo Antão           6
+   290 2700300   Arapiraca                       12
+   291 2700409   Atalaia                          2
+   292 2701407   Campo Alegre                     2
+   293 2702306   Coruripe                         2
+   294 2702405   Delmiro Gouveia                  2
+   295 2702900   Girau do Ponciano                2
+   296 2704302   Maceió                          22
+   297 2704708   Marechal Deodoro                 2
+   298 2706307   Palmeira dos Índios              3
+   299 2706703   Penedo                           2
+   300 2706901   Pilar                            2
+   301 2707701   Rio Largo                        3
+   302 2708006   Santana do Ipanema               2
+   303 2708600   São Miguel dos Campos            2
+   304 2709152   Teotônio Vilela                  2
+   305 2709301   União dos Palmares               3
+   306 2800308   Aracaju                         16
+   307 2802106   Estância                         3
+   308 2802908   Itabaiana                        4
+   309 2803005   Itabaianinha                     2
+   310 2803203   Itaporanga d'Ajuda               2
+   311 2803500   Lagarto                          5
+   312 2804805   Nossa Senhora do Socorro         8
+   313 2806701   São Cristóvão                    4
+   314 2807105   Simão Dias                       2
+   315 2807402   Tobias Barreto                   2
+   316 2900702   Alagoinhas                       7
+   317 2901007   Amargosa                         2
+   318 2901908   Aporá                            2
+   319 2902104   Araci                            2
+   320 2902708   Barra                            2
+   321 2902906   Barra do Choça                   2
+   322 2903201   Barreiras                        7
+   323 2903904   Bom Jesus da Lapa                2
+   324 2904605   Brumado                          3
+   325 2904902   Cachoeira                        2
+   326 2905206   Caetité                          2
+   327 2905602   Camacan                          2
+   328 2905701   Camaçari                        12
+   329 2906006   Campo Formoso                    2
+   330 2906303   Canavieiras                      2
+   331 2906501   Candeias                         4
+   332 2906808   Cansanção                        2
+   333 2906873   Capim Grosso                     2
+   334 2907202   Casa Nova                        2
+   335 2907509   Catu                             2
+   336 2907806   Cícero Dantas                    2
+   337 2908408   Conceição do Coité               3
+   338 2909307   Correntina                       2
+   339 2909802   Cruz das Almas                   3
+   340 2910057   Dias d'Ávila                     3
+   341 2910503   Entre Rios                       2
+   342 2910602   Esplanada                        2
+   343 2910701   Euclides da Cunha                2
+   344 2910727   Eunápolis                        5
+   345 2910800   Feira de Santana                14
+   346 2911204   Gandu                            2
+   347 2911709   Guanambi                         4
+   348 2912202   Ibicoara                         2
+   349 2913606   Ilhéus                           9
+   350 2913903   Ipiaú                            2
+   351 2914000   Ipirá                            3
+   352 2914604   Irecê                            3
+   353 2914703   Itaberaba                        3
+   354 2914802   Itabuna                         14
+   355 2915601   Itamaraju                        2
+   356 2916401   Itapetinga                       3
+   357 2916500   Itapicuru                        2
+   358 2917003   Itiúba                           2
+   359 2917508   Jacobina                         4
+   360 2917607   Jaguaquara                       2
+   361 2917706   Jaguarari                        2
+   362 2918001   Jequié                           7
+   363 2918100   Jeremoabo                        2
+   364 2918407   Juazeiro                        11
+   365 2919207   Lauro de Freitas                 8
+   366 2919504   Livramento de Nossa Senhora      2
+   367 2919553   Luís Eduardo Magalhães           3
+   368 2919801   Macaúbas                         2
+   369 2920601   Maragogipe                       2
+   370 2921005   Mata de São João                 2
+   371 2921500   Monte Santo                      2
+   372 2921708   Morro do Chapéu                  2
+   373 2922003   Mucuri                           2
+   374 2923001   Nova Viçosa                      2
+   375 2924009   Paulo Afonso                     5
+   376 2925105   Poções                           2
+   377 2925204   Pojuca                           2
+   378 2925303   Porto Seguro                     7
+   379 2926004   Remanso                          2
+   380 2926301   Riachão do Jacuípe               2
+   381 2926608   Ribeira do Pombal                2
+   382 2927002   Rio Real                         2
+   383 2927408   Salvador                        62
+   384 2928000   Santaluz                         2
+   385 2928109   Santa Maria da Vitória           2
+   386 2928604   Santo Amaro                      3
+   387 2928703   Santo Antônio de Jesus           4
+   388 2928802   Santo Estêvão                    2
+   389 2929206   São Francisco do Conde           2
+   390 2929305   São Gonçalo dos Campos           2
+   391 2929503   São Sebastião do Passé           2
+   392 2929909   Seabra                           2
+   393 2930105   Senhor do Bonfim                 4
+   394 2930501   Serrinha                         4
+   395 2930709   Simões Filho                     6
+   396 2931350   Teixeira de Freitas              6
+   397 2931905   Tucano                           2
+   398 2932903   Valença                          5
+   399 2933208   Vera Cruz                        2
+   400 2933307   Vitória da Conquista            14
+   401 2933604   Xique-Xique                      2
+   402 3101508   Além Paraíba                     2
+   403 3101607   Alfenas                          3
+   404 3101706   Almenara                         2
+   405 3102605   Andradas                         2
+   406 3103405   Araçuaí                          2
+   407 3103504   Araguari                         6
+   408 3104007   Araxá                            5
+   409 3104205   Arcos                            2
+   410 3105608   Barbacena                        7
+   411 3106200   Belo Horizonte                  67
+   412 3106705   Betim                           20
+   413 3107109   Boa Esperança                    2
+   414 3107307   Bocaiúva                         2
+   415 3107406   Bom Despacho                     2
+   416 3108602   Brasília de Minas                2
+   417 3109006   Brumadinho                       2
+   418 3110004   Caeté                            2
+   419 3110608   Cambuí                           2
+   420 3111200   Campo Belo                       3
+   421 3112307   Capelinha                        2
+   422 3113305   Carangola                        2
+   423 3113404   Caratinga                        4
+   424 3114303   Carmo do Paranaíba               2
+   425 3115300   Cataguases                       4
+   426 3118007   Congonhas                        2
+   427 3118304   Conselheiro Lafaiete             5
+   428 3118601   Contagem                        14
+   429 3119302   Coromandel                       2
+   430 3119401   Coronel Fabriciano               5
+   431 3120904   Curvelo                          3
+   432 3121605   Diamantina                       2
+   433 3122306   Divinópolis                      7
+   434 3124104   Esmeraldas                       2
+   435 3124302   Espinosa                         2
+   436 3126109   Formiga                          3
+   437 3127107   Frutal                           2
+   438 3127701   Governador Valadares            13
+   439 3128006   Guanhães                         2
+   440 3128709   Guaxupé                          2
+   441 3129806   Ibirité                          8
+   442 3130101   Igarapé                          2
+   443 3131307   Ipatinga                        12
+   444 3131703   Itabira                          5
+   445 3131901   Itabirito                        2
+   446 3132404   Itajubá                          4
+   447 3132503   Itamarandiba                     2
+   448 3133808   Itaúna                           4
+   449 3134202   Ituiutaba                        6
+   450 3134400   Iturama                          2
+   451 3135050   Jaíba                            2
+   452 3135100   Janaúba                          3
+   453 3135209   Januária                         2
+   454 3136207   João Monlevade                   3
+   455 3136306   João Pinheiro                    2
+   456 3136702   Juiz de Fora                    14
+   457 3137205   Lagoa da Prata                   2
+   458 3137601   Lagoa Santa                      2
+   459 3138203   Lavras                           5
+   460 3138401   Leopoldina                       2
+   461 3139003   Machado                          2
+   462 3139409   Manhuaçu                         3
+   463 3139607   Mantena                          2
+   464 3140001   Mariana                          2
+   465 3140704   Mateus Leme                      2
+   466 3143104   Monte Carmelo                    2
+   467 3143302   Montes Claros                   22
+   468 3143906   Muriaé                           5
+   469 3144003   Mutum                            2
+   470 3144300   Nanuque                          2
+   471 3144805   Nova Lima                        4
+   472 3145208   Nova Serrana                     4
+   473 3145604   Oliveira                         2
+   474 3145901   Ouro Branco                      2
+   475 3146008   Ouro Fino                        2
+   476 3146107   Ouro Preto                       2
+   477 3147006   Paracatu                         4
+   478 3147105   Pará de Minas                    4
+   479 3147907   Passos                           6
+   480 3148004   Patos de Minas                   9
+   481 3148103   Patrocínio                       4
+   482 3149309   Pedro Leopoldo                   3
+   483 3151206   Pirapora                         2
+   484 3151503   Piumhi                           2
+   485 3151800   Poços de Caldas                  9
+   486 3152105   Ponte Nova                       3
+   487 3152204   Porteirinha                      2
+   488 3152501   Pouso Alegre                     6
+   489 3154606   Ribeirão das Neves              20
+   490 3156700   Sabará                           6
+   491 3157005   Salinas                          2
+   492 3157807   Santa Luzia                     12
+   493 3159605   Santa Rita do Sapucaí            2
+   494 3160405   Santo Antônio do Monte           2
+   495 3160702   Santos Dumont                    2
+   496 3161106   São Francisco                    2
+   497 3162104   São Gotardo                      2
+   498 3162500   São João del Rei                 5
+   499 3163706   São Lourenço                     2
+   500 3164704   São Sebastião do Paraíso         3
+   501 3167202   Sete Lagoas                     13
+   502 3168002   Taiobeiras                       2
+   503 3168606   Teófilo Otoni                    6
+   504 3168705   Timóteo                          4
+   505 3169307   Três Corações                    3
+   506 3169406   Três Pontas                      2
+   507 3169604   Tupaciguara                      2
+   508 3169901   Ubá                              6
+   509 3170107   Uberaba                         16
+   510 3170206   Uberlândia                      17
+   511 3170404   Unaí                             4
+   512 3170701   Varginha                         7
+   513 3170800   Várzea da Palma                  2
+   514 3171204   Vespasiano                       5
+   515 3171303   Viçosa                           4
+   516 3172004   Visconde do Rio Branco           2
+   517 3200102   Afonso Cláudio                   2
+   518 3200201   Alegre                           2
+   519 3200607   Aracruz                          4
+   520 3200805   Baixo Guandu                     2
+   521 3200904   Barra de São Francisco           2
+   522 3201209   Cachoeiro de Itapemirim          9
+   523 3201308   Cariacica                       15
+   524 3201407   Castelo                          2
+   525 3201506   Colatina                         7
+   526 3201605   Conceição da Barra               2
+   527 3201902   Domingos Martins                 2
+   528 3202306   Guaçuí                           2
+   529 3202405   Guarapari                        6
+   530 3202801   Itapemirim                       2
+   531 3203007   Iúna                             2
+   532 3203205   Linhares                         7
+   533 3203320   Marataízes                       2
+   534 3203908   Nova Venécia                     2
+   535 3204559   Santa Maria de Jetibá            2
+   536 3204708   São Gabriel da Palha             2
+   537 3204906   São Mateus                       6
+   538 3205002   Serra                           21
+   539 3205101   Viana                            3
+   540 3205200   Vila Velha                      19
+   541 3205309   Vitória                         14
+   542 3300100   Angra dos Reis                   7
+   543 3300209   Araruama                         6
+   544 3300233   Armação dos Búzios               2
+   545 3300308   Barra do Piraí                   6
+   546 3300407   Barra Mansa                      9
+   547 3300456   Belford Roxo                     5
+   548 3300605   Bom Jesus do Itabapoana          2
+   549 3300704   Cabo Frio                        9
+   550 3300803   Cachoeiras de Macacu             2
+   551 3301009   Campos dos Goytacazes            9
+   552 3301306   Casimiro de Abreu                2
+   553 3301702   Duque de Caxias                 23
+   554 3301850   Guapimirim                       2
+   555 3301900   Itaboraí                        12
+   556 3302007   Itaguaí                          6
+   557 3302205   Itaperuna                        5
+   558 3302270   Japeri                           5
+   559 3302403   Macaé                           12
+   560 3302502   Magé                             7
+   561 3302601   Mangaratiba                      2
+   562 3302700   Maricá                           7
+   563 3302858   Mesquita                         9
+   564 3303203   Nilópolis                        9
+   565 3303302   Niterói                         18
+   566 3303401   Nova Friburgo                    9
+   567 3303500   Nova Iguaçu                      9
+   568 3303609   Paracambi                        2
+   569 3303708   Paraíba do Sul                   2
+   570 3303807   Parati                           2
+   571 3303906   Petrópolis                      15
+   572 3304144   Queimados                        7
+   573 3304201   Resende                          6
+   574 3304300   Rio Bonito                       3
+   575 3304524   Rio das Ostras                   7
+   576 3304557   Rio de Janeiro                 200
+   577 3304706   Santo Antônio de Pádua           2
+   578 3304755   São Francisco de Itabapoana      2
+   579 3304805   São Fidélis                      2
+   580 3304904   São Gonçalo                      5
+   581 3305109   São João de Meriti               5
+   582 3305208   São Pedro da Aldeia              4
+   583 3305505   Saquarema                        4
+   584 3305554   Seropédica                       4
+   585 3305802   Teresópolis                      9
+   586 3306008   Três Rios                        4
+   587 3306107   Valença                          3
+   588 3306206   Vassouras                        2
+   589 3306305   Volta Redonda                   10
+   590 3500105   Adamantina                       2
+   591 3500709   Agudos                           2
+   592 3501608   Americana                       10
+   593 3501707   Américo Brasiliense              2
+   594 3501905   Amparo                           3
+   595 3502101   Andradina                        3
+   596 3502507   Aparecida                        2
+   597 3502804   Araçatuba                       11
+   598 3503208   Araraquara                      15
+   599 3503307   Araras                           7
+   600 3503802   Artur Nogueira                   2
+   601 3503901   Arujá                            3
+   602 3504008   Assis                            4
+   603 3504107   Atibaia                          7
+   604 3504503   Avaré                            4
+   605 3505203   Bariri                           2
+   606 3505302   Barra Bonita                     2
+   607 3505500   Barretos                         6
+   608 3505609   Barrinha                         2
+   609 3505708   Barueri                         13
+   610 3505906   Batatais                         3
+   611 3506003   Bauru                           17
+   612 3506102   Bebedouro                        4
+   613 3506359   Bertioga                         2
+   614 3506508   Birigui                          6
+   615 3507001   Boituva                          2
+   616 3507506   Botucatu                         7
+   617 3507605   Bragança Paulista                9
+   618 3508405   Cabreúva                         2
+   619 3508504   Caçapava                         4
+   620 3509007   Caieiras                         4
+   621 3509205   Cajamar                          3
+   622 3509502   Campinas                        36
+   623 3509601   Campo Limpo Paulista             4
+   624 3509700   Campos do Jordão                 2
+   625 3510203   Capão Bonito                     2
+   626 3510401   Capivari                         2
+   627 3510500   Caraguatatuba                    6
+   628 3510609   Carapicuíba                      7
+   629 3510807   Casa Branca                      2
+   630 3511102   Catanduva                        7
+   631 3511508   Cerquilho                        2
+   632 3512803   Cosmópolis                       3
+   633 3513009   Cotia                           10
+   634 3513108   Cravinhos                        2
+   635 3513405   Cruzeiro                         4
+   636 3513504   Cubatão                          5
+   637 3513702   Descalvado                       2
+   638 3513801   Diadema                         22
+   639 3514403   Dracena                          2
+   640 3515004   Embu                            12
+   641 3515103   Embu-Guaçu                       3
+   642 3515186   Espírito Santo do Pinhal         2
+   643 3515509   Fernandópolis                    4
+   644 3515707   Ferraz de Vasconcelos            8
+   645 3516200   Franca                          21
+   646 3516309   Francisco Morato                 5
+   647 3516408   Franco da Rocha                  6
+   648 3516705   Garça                            2
+   649 3517406   Guaíra                           2
+   650 3518206   Guararapes                       2
+   651 3518404   Guaratinguetá                    4
+   652 3518602   Guariba                          2
+   653 3518701   Guarujá                         15
+   654 3518800   Guarulhos                       30
+   655 3519071   Hortolândia                      9
+   656 3519600   Ibitinga                         2
+   657 3519709   Ibiúna                           3
+   658 3520509   Indaiatuba                       3
+   659 3522109   Itanhaém                         5
+   660 3522208   Itapecerica da Serra             7
+   661 3522307   Itapetininga                     7
+   662 3522406   Itapeva                          5
+   663 3522505   Itapevi                         13
+   664 3522604   Itapira                          3
+   665 3522703   Itápolis                         2
+   666 3523107   Itaquaquecetuba                 16
+   667 3523206   Itararé                          2
+   668 3523305   Itariri                          2
+   669 3523404   Itatiba                          5
+   670 3523909   Itu                              7
+   671 3524006   Itupeva                          2
+   672 3524105   Ituverava                        2
+   673 3524303   Jaboticabal                      3
+   674 3524402   Jacareí                          8
+   675 3524709   Jaguariúna                       2
+   676 3524808   Jales                            2
+   677 3525003   Jandira                          5
+   678 3525102   Jardinópolis                     2
+   679 3525300   Jaú                              7
+   680 3525706   José Bonifácio                   2
+   681 3525904   Jundiaí                         24
+   682 3526704   Leme                             5
+   683 3526803   Lençóis Paulista                 3
+   684 3526902   Limeira                          6
+   685 3527108   Lins                             3
+   686 3527207   Lorena                           4
+   687 3527306   Louveira                         2
+   688 3528403   Mairinque                        2
+   689 3528502   Mairiporã                        3
+   690 3529005   Marília                         10
+   691 3529302   Matão                            4
+   692 3529401   Mauá                            21
+   693 3530300   Mirassol                         2
+   694 3530508   Mococa                           4
+   695 3530607   Mogi das Cruzes                 24
+   696 3530706   Mogi Guaçu                       8
+   697 3530805   Moji Mirim                       4
+   698 3531100   Mongaguá                         2
+   699 3531308   Monte Alto                       2
+   700 3531803   Monte Mor                        2
+   701 3533403   Nova Odessa                      2
+   702 3533502   Novo Horizonte                   2
+   703 3533908   Olímpia                          2
+   704 3534302   Orlândia                         2
+   705 3534401   Osasco                          18
+   706 3534609   Osvaldo Cruz                     2
+   707 3534708   Ourinhos                         5
+   708 3535507   Paraguaçu Paulista               2
+   709 3536505   Paulínia                         4
+   710 3536703   Pederneiras                      2
+   711 3537107   Pedreira                         2
+   712 3537305   Penápolis                        3
+   713 3537602   Peruíbe                          3
+   714 3537800   Piedade                          2
+   715 3538006   Pindamonhangaba                  7
+   716 3538709   Piracicaba                      20
+   717 3538808   Piraju                           2
+   718 3539301   Pirassununga                     4
+   719 3539509   Pitangueiras                     2
+   720 3539806   Poá                              5
+   721 3540200   Pontal                           2
+   722 3540606   Porto Feliz                      2
+   723 3540705   Porto Ferreira                   2
+   724 3541000   Praia Grande                    10
+   725 3541307   Presidente Epitácio              2
+   726 3541406   Presidente Prudente             12
+   727 3541505   Presidente Venceslau             2
+   728 3541604   Promissão                        2
+   729 3542206   Rancharia                        2
+   730 3542602   Registro                         2
+   731 3543303   Ribeirão Pires                   6
+   732 3543402   Ribeirão Preto                  19
+   733 3543907   Rio Claro                       10
+   734 3544103   Rio Grande da Serra              2
+   735 3545209   Salto                            6
+   736 3545308   Salto de Pirapora                2
+   737 3545803   Santa Bárbara d'Oeste            8
+   738 3546306   Santa Cruz das Palmeiras         2
+   739 3546405   Santa Cruz do Rio Pardo          2
+   740 3546603   Santa Fé do Sul                  2
+   741 3546801   Santa Isabel                     2
+   742 3547304   Santana de Parnaíba              4
+   743 3547809   Santo André                     23
+   744 3548500   Santos                           8
+   745 3548708   São Bernardo do Campo           19
+   746 3548807   São Caetano do Sul               8
+   747 3548906   São Carlos                      14
+   748 3549102   São João da Boa Vista            5
+   749 3549409   São Joaquim da Barra             2
+   750 3549706   São José do Rio Pardo            2
+   751 3549805   São José do Rio Preto           23
+   752 3549904   São José dos Campos             13
+   753 3550100   São Manuel                       2
+   754 3550209   São Miguel Arcanjo               2
+   755 3550308   São Paulo                      310
+   756 3550407   São Pedro                        2
+   757 3550605   São Roque                        3
+   758 3550704   São Sebastião                    4
+   759 3551009   São Vicente                     11
+   760 3551504   Serrana                          2
+   761 3551702   Sertãozinho                      6
+   762 3552106   Socorro                          2
+   763 3552205   Sorocaba                        19
+   764 3552403   Sumaré                          15
+   765 3552502   Suzano                           3
+   766 3552809   Taboão da Serra                 10
+   767 3553708   Taquaritinga                     3
+   768 3554003   Tatuí                            4
+   769 3554102   Taubaté                         14
+   770 3554508   Tietê                            2
+   771 3554805   Tremembé                         2
+   772 3555000   Tupã                             3
+   773 3555406   Ubatuba                          4
+   774 3556206   Valinhos                         5
+   775 3556404   Vargem Grande do Sul             2
+   776 3556453   Vargem Grande Paulista           2
+   777 3556503   Várzea Paulista                  4
+   778 3556701   Vinhedo                          3
+   779 3557006   Votorantim                       6
+   780 3557105   Votuporanga                      5
+   781 4100400   Almirante Tamandaré              4
+   782 4101408   Apucarana                        7
+   783 4101507   Arapongas                        6
+   784 4101804   Araucária                        6
+   785 4102000   Assis Chateaubriand              2
+   786 4102406   Bandeirantes                     2
+   787 4103701   Cambé                            5
+   788 4104006   Campina Grande do Sul            2
+   789 4104204   Campo Largo                      5
+   790 4104303   Campo Mourão                     5
+   791 4104808   Cascavel                        17
+   792 4104907   Castro                           3
+   793 4105508   Cianorte                         4
+   794 4105805   Colombo                         11
+   795 4106407   Cornélio Procópio                2
+   796 4106902   Curitiba                        55
+   797 4107207   Dois Vizinhos                    2
+   798 4107652   Fazenda Rio Grande               4
+   799 4108304   Foz do Iguaçu                   11
+   800 4108403   Francisco Beltrão                5
+   801 4108601   Goioerê                          2
+   802 4108809   Guaíra                           2
+   803 4109401   Guarapuava                       9
+   804 4109609   Guaratuba                        2
+   805 4109807   Ibiporã                          2
+   806 4110102   Imbituva                         2
+   807 4110706   Irati                            3
+   808 4111506   Ivaiporã                         2
+   809 4111803   Jacarezinho                      2
+   810 4112009   Jaguariaíva                      2
+   811 4113205   Lapa                             2
+   812 4113304   Laranjeiras do Sul               2
+   813 4113700   Londrina                         6
+   814 4114203   Mandaguari                       2
+   815 4114609   Marechal Cândido Rondon          2
+   816 4114807   Marialva                         2
+   817 4115200   Maringá                         20
+   818 4115705   Matinhos                         2
+   819 4115804   Medianeira                       2
+   820 4117503   Paiçandu                         2
+   821 4117602   Palmas                           2
+   822 4117701   Palmeira                         2
+   823 4117909   Palotina                         2
+   824 4118204   Paranaguá                        7
+   825 4118402   Paranavaí                        5
+   826 4118501   Pato Branco                      4
+   827 4119152   Pinhais                          5
+   828 4119509   Piraquara                        4
+   829 4119608   Pitanga                          2
+   830 4119905   Ponta Grossa                    15
+   831 4120606   Prudentópolis                    2
+   832 4120903   Quedas do Iguaçu                 2
+   833 4122206   Rio Branco do Sul                2
+   834 4122305   Rio Negro                        2
+   835 4122404   Rolândia                         3
+   836 4124103   Santo Antônio da Platina         2
+   837 4125506   São José dos Pinhais             6
+   838 4125605   São Mateus do Sul                2
+   839 4126256   Sarandi                          5
+   840 4127106   Telêmaco Borba                   3
+   841 4127700   Toledo                           7
+   842 4128104   Umuarama                         5
+   843 4128203   União da Vitória                 2
+   844 4201406   Araranguá                        3
+   845 4202008   Balneário Camboriú               7
+   846 4202305   Biguaçu                          3
+   847 4202404   Blumenau                        19
+   848 4202800   Braço do Norte                   2
+   849 4202909   Brusque                          5
+   850 4203006   Caçador                          3
+   851 4203204   Camboriú                         3
+   852 4203600   Campos Novos                     2
+   853 4203808   Canoinhas                        2
+   854 4204202   Chapecó                         11
+   855 4204301   Concórdia                        4
+   856 4204608   Criciúma                        11
+   857 4204806   Curitibanos                      2
+   858 4205407   Florianópolis                   30
+   859 4205506   Fraiburgo                        2
+   860 4205902   Gaspar                           3
+   861 4206504   Guaramirim                       2
+   862 4207007   Içara                            3
+   863 4207304   Imbituba                         2
+   864 4207502   Indaial                          3
+   865 4208203   Itajaí                          10
+   866 4208302   Itapema                          2
+   867 4208906   Jaraguá do Sul                   8
+   868 4209003   Joaçaba                          2
+   869 4209102   Joinville                       29
+   870 4209300   Lages                            9
+   871 4209409   Laguna                           3
+   872 4210100   Mafra                            2
+   873 4211306   Navegantes                       3
+   874 4211900   Palhoça                          7
+   875 4213203   Pomerode                         2
+   876 4213609   Porto União                      2
+   877 4214805   Rio do Sul                       3
+   878 4215000   Rio Negrinho                     2
+   879 4215802   São Bento do Sul                 4
+   880 4216206   São Francisco do Sul             2
+   881 4216305   São João Batista                 2
+   882 4216602   São José                        15
+   883 4217204   São Miguel do Oeste              2
+   884 4217709   Sombrio                          2
+   885 4218004   Tijucas                          2
+   886 4218202   Timbó                            2
+   887 4218301   Três Barras                      2
+   888 4218707   Tubarão                          6
+   889 4219309   Videira                          2
+   890 4219507   Xanxerê                          2
+   891 4300406   Alegrete                         4
+   892 4300604   Alvorada                         9
+   893 4301602   Bagé                             5
+   894 4302105   Bento Gonçalves                  7
+   895 4302808   Caçapava do Sul                  2
+   896 4303004   Cachoeira do Sul                 5
+   897 4303103   Cachoeirinha                     6
+   898 4303509   Camaquã                          3
+   899 4303905   Campo Bom                        3
+   900 4304200   Candelária                       2
+   901 4304408   Canela                           2
+   902 4304507   Canguçu                          3
+   903 4304606   Canoas                          19
+   904 4304630   Capão da Canoa                   2
+   905 4304705   Carazinho                        3
+   906 4304804   Carlos Barbosa                   2
+   907 4305108   Caxias do Sul                   27
+   908 4305355   Charqueadas                      2
+   909 4306106   Cruz Alta                        3
+   910 4306403   Dois Irmãos                      2
+   911 4306601   Dom Pedrito                      2
+   912 4306767   Eldorado do Sul                  2
+   913 4307005   Erechim                          6
+   914 4307609   Estância Velha                   2
+   915 4307708   Esteio                           5
+   916 4307807   Estrela                          2
+   917 4307906   Farroupilha                      3
+   918 4308201   Flores da Cunha                  2
+   919 4308607   Garibaldi                        2
+   920 4309100   Gramado                          2
+   921 4309209   Gravataí                        15
+   922 4309308   Guaíba                           5
+   923 4310108   Igrejinha                        2
+   924 4310207   Ijuí                             5
+   925 4310603   Itaqui                           2
+   926 4311007   Jaguarão                         2
+   927 4311304   Lagoa Vermelha                   2
+   928 4311403   Lajeado                          4
+   929 4311809   Marau                            2
+   930 4312401   Montenegro                       3
+   931 4313409   Novo Hamburgo                   14
+   932 4313508   Osório                           2
+   933 4313706   Palmeira das Missões             2
+   934 4313904   Panambi                          2
+   935 4314050   Parobé                           2
+   936 4314100   Passo Fundo                     10
+   937 4314407   Pelotas                         20
+   938 4314803   Portão                           2
+   939 4314902   Porto Alegre                    42
+   940 4315602   Rio Grande                      11
+   941 4315701   Rio Pardo                        2
+   942 4316402   Rosário do Sul                   2
+   943 4316808   Santa Cruz do Sul                6
+   944 4316907   Santa Maria                     16
+   945 4317103   Santana do Livramento            5
+   946 4317202   Santa Rosa                       4
+   947 4317301   Santa Vitória do Palmar          2
+   948 4317400   Santiago                         3
+   949 4317509   Santo Ângelo                     4
+   950 4317608   Santo Antônio da Patrulha        2
+   951 4318002   São Borja                        3
+   952 4318309   São Gabriel                      3
+   953 4318507   São José do Norte                2
+   954 4318705   São Leopoldo                    13
+   955 4318804   São Lourenço do Sul              2
+   956 4318903   São Luiz Gonzaga                 2
+   957 4319901   Sapiranga                        4
+   958 4320008   Sapucaia do Sul                  7
+   959 4320800   Soledade                         2
+   960 4321204   Taquara                          3
+   961 4321303   Taquari                          2
+   962 4321451   Teutônia                         2
+   963 4321501   Torres                           2
+   964 4321600   Tramandaí                        2
+   965 4322004   Triunfo                          2
+   966 4322400   Uruguaiana                       6
+   967 4322509   Vacaria                          3
+   968 4322608   Venâncio Aires                   4
+   969 4323002   Viamão                          11
+   970 5000609   Amambaí                          2
+   971 5001102   Aquidauana                       2
+   972 5002704   Campo Grande                     8
+   973 5003207   Corumbá                          4
+   974 5003306   Coxim                            2
+   975 5003702   Dourados                        10
+   976 5005400   Maracaju                         2
+   977 5005707   Naviraí                          2
+   978 5006200   Nova Andradina                   2
+   979 5006309   Paranaíba                        2
+   980 5006606   Ponta Porã                       4
+   981 5007901   Sidrolândia                      2
+   982 5008305   Três Lagoas                      4
+   983 5100250   Alta Floresta                    2
+   984 5101704   Barra do Bugres                  2
+   985 5101803   Barra do Garças                  3
+   986 5102504   Cáceres                          4
+   987 5102678   Campo Verde                      2
+   988 5103403   Cuiabá                          18
+   989 5104104   Guarantã do Norte                2
+   990 5104807   Jaciara                          2
+   991 5105101   Juara                            2
+   992 5105150   Juína                            2
+   993 5105259   Lucas do Rio Verde               2
+   994 5106224   Nova Mutum                       2
+   995 5106752   Pontes e Lacerda                 2
+   996 5107040   Primavera do Leste               2
+   997 5107602   Rondonópolis                    11
+   998 5107909   Sinop                            5
+   999 5107925   Sorriso                          3
+  1000 5107958   Tangará da Serra                 4
+  1001 5108402   Várzea Grande                   17
+  1002 5200258   Águas Lindas de Goiás            7
+  1003 5201108   Anápolis                        12
+  1004 5201405   Aparecida de Goiânia            13
+  1005 5204508   Caldas Novas                     4
+  1006 5205109   Catalão                          4
+  1007 5205497   Cidade Ocidental                 2
+  1008 5206206   Cristalina                       2
+  1009 5208004   Formosa                          5
+  1010 5208608   Goianésia                        3
+  1011 5208707   Goiânia                         43
+  1012 5208806   Goianira                         2
+  1013 5208905   Goiás                            2
+  1014 5209101   Goiatuba                         2
+  1015 5210000   Inhumas                          2
+  1016 5210208   Iporá                            2
+  1017 5210406   Itaberaí                         2
+  1018 5211206   Itapuranga                       2
+  1019 5211503   Itumbiara                        5
+  1020 5211800   Jaraguá                          2
+  1021 5211909   Jataí                            4
+  1022 5212501   Luziânia                         7
+  1023 5213087   Minaçu                           2
+  1024 5213103   Mineiros                         2
+  1025 5213806   Morrinhos                        2
+  1026 5214606   Niquelândia                      2
+  1027 5215231   Novo Gama                        4
+  1028 5217401   Pires do Rio                     2
+  1029 5217609   Planaltina                       3
+  1030 5218003   Porangatu                        2
+  1031 5218300   Posse                            2
+  1032 5218508   Quirinópolis                     2
+  1033 5218805   Rio Verde                        8
+  1034 5219308   Santa Helena de Goiás            2
+  1035 5219753   Santo Antônio do Descoberto      2
+  1036 5220108   São Luís de Montes Belos         2
+  1037 5220454   Senador Canedo                   3
+  1038 5221403   Trindade                         5
+  1039 5221601   Uruaçu                           2
+  1040 5221858   Valparaíso de Goiás              7
+  1041 5300108   Brasília                        51
