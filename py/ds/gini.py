@@ -4,33 +4,28 @@ import matplotlib.pyplot as plt
 from ds import bd
 
 conn = bd.conn()
+
 # ---------- CALCULO DO ÍNDICE DE GINI ---------- #
 
 def gini( sql ):
-    df = pd.read_sql_query( sql, conn )
-    df = df.sort_values()
-    # Separa valores em renda e população
-    renda = df[ 'renda' ]
-    pessoas = df[ 'peso' ]
+    df = pd.read_sql_query( sql, conn )     
+    df = df.sort_values( 'renda', kind = 'mergesorted')
     
-    # Transforma as listas em arrays
-    pessoas = np.array( pessoas )
-    renda = np.array( renda )
-
-    # Organiza os dados
-    aux = np.argsort( [ renda/pessoas for renda, pessoas in zip( renda, pessoas ) ], kind = "stable")
+    # Expandir a base através dos pesos
+    df = df.reindex( df.index.repeat( pd.to_numeric( df['peso'], downcast='integer') ) )
     
-    renda = [ j for _, j in zip( aux, renda[ aux ] )]
-    pessoas = [ i for _, i in zip(aux, pessoas[ aux ] )]
-
-    # Soma acumulada de renda e pessoas 
-    renda = np.cumsum( renda / sum( renda ) )
-    pessoas = np.cumsum( pessoas / sum( pessoas ) )
+    #df_tot[ 'pop_cum' ] = np.arange( len( df_tot ) )
+    #df_tot[ 'pop_cum' ] = df_tot.pop_cum.cumsum() / df_tot.pop_cum.sum()
+    # População acumulada
+    df['pop_cum'] = np.ones( len( df ) )
+    df['pop_cum'] = df['pop_cum'].cumsum() / df['pop_cum'].size
+    # Renda acumulada
+    df['renda_cum'] = df['renda'].cumsum() / df['renda'].sum()
     
-    # Fŕomula do indíce de gini [ Gini = 1 - CurvaLorenz]
-    g = 2 * ( 0.5 - np.trapz( renda, pessoas ) )
+    # Índice de Gini
+    g = 2 * ( 0.5 - np.trapz( df['renda_cum'], df['pop_cum'] ) )
     
-    return g, pessoas, renda
+    return g, df['pop_cum'], df['renda_cum']
 
 
 # ---------- PLOT DA CURVA DE LORENZ---------- #
