@@ -9,27 +9,27 @@ estados = ["ac", "al", "am", "ap", "ba", "ce", "df",
 
 uf = y2000.giniEstados(estados)
 print('FINISH ESTADOS 2000. {} \n'.format(uf.shape))
-uf.to_csv('../dataset/gini-y2000-estados.csv', sep=',')
+uf.to_csv('gini-y2000-estados.csv', sep=',')
 
 cid = y2000.giniCidades(estados)
 print('FINISH CIDADES 2000. {} \n'.format(cid.shape))
-cid.to_csv('../dataset/gini-y2000-cidades.csv', sep=',')
+cid.to_csv('gini-y2000-cidades.csv', sep=',')
 
 uf = y2000.beneficioEstados(estados)
 print('FINISH ESTADOS 2000. {} \n'.format(uf.shape))
-uf.to_csv('../dataset/beneficios-y2000-estados.csv', sep=',')
+uf.to_csv('beneficios-y2000-estados.csv', sep=',')
 
 cid = y2000.beneficioCidades(estados)
 print('FINISH CIDADES 2000. {} \n'.format(cid.shape))
-cid.to_csv('../dataset/beneficios-y2000-cidades.csv', sep=',')
+cid.to_csv('beneficios-y2000-cidades.csv', sep=',')
 
 uf = y2000.progressividadeEstados(estados)
 print('FINISH ESTADOS 2000. {} \n'.format(uf.shape))
-uf.to_csv('../dataset/progressividade-y2000-estados.csv', sep=',')
+uf.to_csv('progressividade-y2000-estados.csv', sep=',')
 
 cid = y2000.progressividadeEstados(estados)
 print('FINISH CIDADES 2000. {} \n'.format(cid.shape))
-cid.to_csv('../dataset/progressividade-y2000-cidades.csv', sep=',')
+cid.to_csv('progressividade-y2000-cidades.csv', sep=',')
 
 # --------------------------- 2010 --------------------------- #
 estados = ["ac", "al" , "am", "ap", "ba", "ce", "df", 
@@ -37,26 +37,26 @@ estados = ["ac", "al" , "am", "ap", "ba", "ce", "df",
            "pb", "pe", "pi", "pr", "rj", "rn", "ro", 
            "rr", "rs", "sc", "se", "sp1", "sp2_rm", "to"]
 
-uf = y2010.giniEstados( estados )
+uf = y2010.giniEstados(estados)
 print('FINISH ESTADOS 2010. {} \n'.format(uf.shape))
-uf.to_csv('../dataset/gini-y2010-estados.csv', sep=',')
+uf.to_csv('gini-y2010-estados.csv', sep=',')
 
-cid = y2010.giniCidades( estados )
+cid = y2010.giniCidades(estados)
 print('FINISH CIDADES 2010. {} \n'.format(cid.shape))
-cid.to_csv('../dataset/gini-y2010-cidades.csv', sep=',')
+cid.to_csv('gini-y2010-cidades.csv', sep=',')
 
 uf = y2010.beneficioEstados(estados)
 print('FINISH ESTADOS 2010. {} \n'.format(uf.shape))
-uf.to_csv('../dataset/beneficios-y2010-estados.csv', sep=',')
+uf.to_csv('beneficios-y2010-estados.csv', sep=',')
 
 cid = y2010.beneficioCidades(estados)
 print('FINISH CIDADES 2010. {} \n'.format(cid.shape))
-cid.to_csv('../dataset/beneficios-y2010-cidades.csv', sep=',')
+cid.to_csv('beneficios-y2010-cidades.csv', sep=',')
 
 uf = y2010.progressividadeEstados(estados)
 print('FINISH ESTADOS 2010. {} \n'.format(uf.shape))
-uf.to_csv('../dataset/progressividade-y2010-estados.csv', sep=',')
+uf.to_csv('progressividade-y2010-estados.csv', sep=',')
 
 cid = y2010.progressividadeEstados(estados)
 print('FINISH CIDADES 2010. {} \n'.format(cid.shape))
-cid.to_csv('../dataset/progressividade-y2010-cidades.csv', sep=',')
+cid.to_csv('progressividade-y2010-cidades.csv', sep=',')
