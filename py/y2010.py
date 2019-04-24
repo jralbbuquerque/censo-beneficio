@@ -199,7 +199,7 @@ def beneficioCidades(estados):
                     FROM censo_2010.pessoas_{} WHERE v6591 <> 0 AND v6591 <= 510 AND v0656 = 1 AND v0002 = '{}'".format(k, i)
 
             # SQL - Unidade Federativa
-            sql_UF = "SELECT v0001 as UF FROM censo_2010.domicilios_%s limit 1 ".format(k)
+            sql_UF = "SELECT v0001 as UF FROM censo_2010.domicilios_{} limit 1 ".format(k)
             df_UF = pd.read_sql_query(sql_UF, conn)
             
             # AMC do município em 2000
@@ -245,7 +245,8 @@ def beneficioCidades(estados):
 
 # ------------------------- PROGRESSIVIDADE DAS PARCELAS - ESTADOS ------------------------- #
 def progressividadeEstados(estados):
-    results = pd.DataFrame(data = [], columns = 'COD UF GINI(G) PARCELA(CH) P_TOTAL P_1SAL P_NSAL'.split())
+    results = pd.DataFrame(data = [], columns = 'COD UF GINI(G) PARCELA(CH) P_TOTAL P_1SAL P_NSAL \
+                                        MRENDA MBEN_TOT MBEN_1SAL MBEN_NSAL'.split())
     conn = bd.conn()
 
     for k in estados:
@@ -276,6 +277,12 @@ def progressividadeEstados(estados):
         df['pop_cum'] = df.pop_cum.cumsum() / df.pop_cum.size
         df['renda_cum'] = df.renda_tot.cumsum() / df.renda_tot.sum()
 
+        # Rendas médias
+        mRendaTot = sum(df['renda_tot']) / len(df)
+        mBenTot = sum(df['ben_tot']) / len(df)
+        mBenNsal = sum(df['ben_nsal']) / len(df)
+        mBen1Sal = sum(df['ben_1sal']) / len(df)
+
         # Índice de gini
         g = 2 * (0.5 - np.trapz(df.renda_cum, df.pop_cum))
 
@@ -297,16 +304,18 @@ def progressividadeEstados(estados):
         # Corrige o nome do estado de São Paulo
         if (k == "sp1") or (k == "sp2_rm"):
             k = "sp"
-            
+
         results = results.append({'COD': cod_uf, 'UF': str.upper(k), 'GINI(G)': g, 'PARCELA(CH)': ch1, 
-                                  'P_TOTAL': p1, 'P_1SAL': p2, 'P_NSAL': p3}, ignore_index = True)
+                                  'P_TOTAL': p1, 'P_1SAL': p2, 'P_NSAL': p3, 'MRENDA': mRendaTot,
+				  'MBEN_TOT': mBenTot, 'MBEN_1SAL': mBen1Sal, 'MBEN_NSAL': mBenNsal}, ignore_index = True)
     
     return results
 # ------------------------------------------------------------------------------------------ #
 
 # ------------------------- PROGRESSIVIDADE DAS PARCELAS - CIDADES ------------------------- #
 def progressividadeCidades(estados):
-    results = pd.DataFrame(data = [], columns = 'UF COD2010 COD2000 GINI(G) PARCELA(CH) P_TOTAL P_1SAL P_NSAL'.split())
+    results = pd.DataFrame(data = [], columns = 'UF COD2010 COD2000 GINI(G) PARCELA(CH) P_TOTAL P_1SAL P_NSAL \
+                                        MRENDA MBEN_TOT MBEN_1SAL MBEN_NSAL'.split())
     conn = bd.conn()
     
     for k in estados:
@@ -342,6 +351,12 @@ def progressividadeCidades(estados):
             df['pop_cum'] = df.pop_cum.cumsum() / df.pop_cum.size
             df['renda_cum'] = df.renda_tot.cumsum() / df.renda_tot.sum()
 
+            # Rendas médias
+            mRendaTot = sum(df['renda_tot']) / len(df)
+            mBenTot = sum(df['ben_tot']) / len(df)
+            mBenNsal = sum(df['ben_nsal']) / len(df)
+            mBen1Sal = sum(df['ben_1sal']) / len(df)
+
             # Índice de gini
             g = 2 * (0.5 - np.trapz(df.renda_cum, df.pop_cum))
 
@@ -365,18 +380,20 @@ def progressividadeCidades(estados):
             
             # Corrige o nome do estado de São Paulo
             if (k == "sp1") or (k == "sp2_rm"):
-                uf = "sp"
+                uff = "sp"
             else:
-                uf = k
-                
-            results = results.append({'UF': str.upper(uf), 'COD2010': (str(uf) + str(i)), 'COD2000': str(cod[0]),
+                uff = k
+
+            results = results.append({'UF': str.upper(uff), 'COD2010': (str(uf) + str(i)), 'COD2000': str(cod[0]),
                                       'GINI(G)': g, 'PARCELA(CH)': ch1, 'P_TOTAL': p1, 'P_1SAL': p2, 
-                                      'P_NSAL': p3}, ignore_index = True)
+                                      'P_NSAL': p3, 'MRENDA': mRendaTot, 'MBEN_TOT': mBenTot, 'MBEN_1SAL': mBen1Sal,
+				      'MBEN_NSAL': mBenNsal}, ignore_index = True) 
+
     results = results.fillna(0)
     
     af = {'UF':'first', 'COD2010': lambda x: x.tolist(), 'COD2000':'first', 
           'GINI(G)':'mean', 'PARCELA(CH)':'mean', 'P_TOTAL':'mean', 'P_1SAL':'mean',
-          'P_NSAL':'mean' }
+          'P_NSAL':'mean', 'MRENDA':'mean', 'MBEN_TOT':'mean', 'MBEN_1SAL':'mean', 'MBEN_NSAL':'mean' }
     
     results = results.groupby('COD2000').aggregate(af)
     results.drop('COD2000', axis = 1, inplace = True)

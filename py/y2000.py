@@ -214,12 +214,12 @@ def beneficioCidades(estados):
 
 # ------------------------- PROGRESSIVIDADE DAS PARCELAS - ESTADOS ------------------------- #
 def progressividadeEstados(estados):
-    results = pd.DataFrame( data = [], columns = 'COD UF GINI(G) PARCELA(CH) P_TOTAL P_1SAL P_NSAL'.split() )
+    results = pd.DataFrame(data = [], columns = 'UF COD GINI(G) PARCELA(CH) P_TOTAL P_1SAL P_NSAL \
+                                        MRENDA MBEN_TOT MBEN_1SAL MBEN_NSAL'.split())
     conn = bd.conn()
 
     for k in estados:
-        print('[{}]: PROGRESSIVIDADE DAS PARC. DE APOSENTADORIA. \
-            Processando Estados...'.format(str.upper(k)), end='\n')
+        print('[{}]: PROGRESSIVIDADE DAS PARC. DE APOSENTADORIA. Processando Estados...'.format(str.upper(k)), end='\n')
         
         sql = "SELECT \
                 COALESCE(v4614, 0) AS renda_tot, \
@@ -246,6 +246,12 @@ def progressividadeEstados(estados):
         df['pop_cum'] = df.pop_cum.cumsum() / df.pop_cum.size
         df['renda_cum'] = df.renda_tot.cumsum() / df.renda_tot.sum()
 
+        # Rendas médias
+        mRendaTot = sum(df['renda_tot']) / len(df)
+        mBenTot = sum(df['ben_tot']) / len(df)
+        mBenNsal = sum(df['ben_nsal']) / len(df)
+        mBen1Sal = sum(df['ben_1sal']) / len(df)
+            
         # Índice de gini
         g = 2 * (0.5 - np.trapz(df.renda_cum, df.pop_cum))
 
@@ -268,15 +274,17 @@ def progressividadeEstados(estados):
         if k == "rn1":
             k = "rn"
         
-        results = results.append( {'COD': cod_uf, 'UF': str.upper(k), 'GINI(G)': g, 'PARCELA(CH)': ch1, 
-                                   'P_TOTAL': p1, 'P_1SAL': p2, 'P_NSAL': p3}, ignore_index = True)
+        results = results.append( {'UF': str.upper(k), 'COD': cod_uf, 'GINI(G)': g, 'PARCELA(CH)': ch1, 
+                                   'P_TOTAL': p1, 'P_1SAL': p2, 'P_NSAL': p3, 'MRENDA': mRendaTot,
+                                   'MBEN_TOT': mBenTot, 'MBEN_1SAL': mBen1Sal, 'MBEN_NSAL': mBenNsal}, ignore_index = True)
     
     return results
 # ------------------------------------------------------------------------------------------ #
 
 # ------------------------- PROGRESSIVIDADE DAS PARCELAS - CIDADES ------------------------- #
 def progressividadeCidades(estados):
-    results = pd.DataFrame(data = [], columns = 'UF COD GINI(G) PARCELA(CH) P_TOTAL P_1SAL P_NSAL'.split())
+    results = pd.DataFrame(data = [], columns = 'UF COD GINI(G) PARCELA(CH) P_TOTAL P_1SAL P_NSAL \
+                                        MRENDA MBEN_TOT MBEN_1SAL MBEN_NSAL'.split())
     conn = bd.conn()
     
     for k in estados:
@@ -289,7 +297,7 @@ def progressividadeCidades(estados):
         for i in cidades['cidade']:
             sql = "SELECT \
                     COALESCE(v4614, 0) AS renda_tot, \
-                    COALESCE(ROUND( p001), 0) AS peso_tot, \
+                    COALESCE(ROUND(p001), 0) AS peso_tot, \
                     COALESCE(v4573, 0) AS ben_tot, \
                     COALESCE(CASE WHEN v4573 <= 151 THEN v4573 ELSE 0 END, 0) AS ben_1sal, \
                     COALESCE(CASE WHEN v4573 > 151 THEN v4573 ELSE 0 END, 0) AS ben_nsal \
@@ -300,13 +308,19 @@ def progressividadeCidades(estados):
             df = df.sort_values('renda_tot', kind = 'mergesorted')
 
             # Expande a base acerca dos pesos
-            df = df.reindex(df.index.repeat(pd.to_numeric(df.peso_tot, downcast='integer')))
+            df = df.reindex(df.index.repeat(pd.to_numeric(df['peso_tot'], downcast='integer')))
 
             # População e renda acumuladas
             df['pop_cum'] = np.ones(len(df))
             df['pop_cum'] = df.pop_cum.cumsum() / df.pop_cum.size
             df['renda_cum'] = df.renda_tot.cumsum() / df.renda_tot.sum()
-
+            
+            # Rendas médias
+            mRendaTot = sum(df['renda_tot']) / len(df)
+            mBenTot = sum(df['ben_tot']) / len(df)
+            mBenNsal = sum(df['ben_nsal']) / len(df)
+            mBen1Sal = sum(df['ben_1sal']) / len(df)
+            
             # Índice de gini
             g = 2 * (0.5 - np.trapz(df.renda_cum, df.pop_cum))
 
@@ -331,8 +345,9 @@ def progressividadeCidades(estados):
             else:
                 uf = k
                 
-            results = results.append( { 'UF': str.upper(uf), 'COD': i, 'GINI(G)': g, 'PARCELA(CH)': ch1, 
-                                       'P_TOTAL': p1, 'P_1SAL': p2, 'P_NSAL': p3}, ignore_index = True)
+            results = results.append( {'UF': str.upper(uf), 'COD': i, 'GINI(G)': g, 'PARCELA(CH)': ch1, 
+                                       'P_TOTAL': p1, 'P_1SAL': p2, 'P_NSAL': p3, 'MRENDA': mRendaTot,
+                                       'MBEN_TOT': mBenTot, 'MBEN_1SAL': mBen1Sal, 'MBEN_NSAL': mBenNsal}, ignore_index = True)
             results = results.fillna(0)
         
     return results
