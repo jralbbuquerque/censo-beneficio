@@ -245,8 +245,8 @@ def beneficioCidades(estados):
 
 # ------------------------- PROGRESSIVIDADE DAS PARCELAS - ESTADOS ------------------------- #
 def progressividadeEstados(estados):
-    results = pd.DataFrame(data = [], columns = 'COD UF GINI(G) PARCELA(CH) P_TOTAL P_1SAL P_NSAL \
-                                        MRENDA MBEN_TOT MBEN_1SAL MBEN_NSAL'.split())
+    results = pd.DataFrame(data = [], columns = 'COD UF GINI(G) PARCELA(CH) P_TOTAL CH_1SAL P_1SAL CH_NSAL P_NSAL \
+                                         MBEN_TOT MBEN_1SAL MBEN_NSAL'.split())
     conn = bd.conn()
 
     for k in estados:
@@ -306,16 +306,17 @@ def progressividadeEstados(estados):
             k = "sp"
 
         results = results.append({'COD': cod_uf, 'UF': str.upper(k), 'GINI(G)': g, 'PARCELA(CH)': ch1, 
-                                  'P_TOTAL': p1, 'P_1SAL': p2, 'P_NSAL': p3, 'MRENDA': mRendaTot,
-				  'MBEN_TOT': mBenTot, 'MBEN_1SAL': mBen1Sal, 'MBEN_NSAL': mBenNsal}, ignore_index = True)
+                                  'P_TOTAL': p1, 'CH_1SAL':ch2, 'P_1SAL': p2, 'CH_NSAL': ch3, 'P_NSAL': p3,
+				  'MBEN_TOT': mBenTot/mRendaTot, 'MBEN_1SAL': mBen1Sal/mRendaTot, 
+				  'MBEN_NSAL': mBenNsal/mRendaTot}, ignore_index = True)
     
     return results
 # ------------------------------------------------------------------------------------------ #
 
 # ------------------------- PROGRESSIVIDADE DAS PARCELAS - CIDADES ------------------------- #
 def progressividadeCidades(estados):
-    results = pd.DataFrame(data = [], columns = 'UF COD2010 COD2000 GINI(G) PARCELA(CH) P_TOTAL P_1SAL P_NSAL \
-                                        MRENDA MBEN_TOT MBEN_1SAL MBEN_NSAL'.split())
+    results = pd.DataFrame(data = [], columns = 'UF COD2010 COD2000 GINI(G) PARCELA(CH) P_TOTAL CH_1SAL P_1SAL CH_NSAL P_NSAL \
+                                        MBEN_TOT MBEN_1SAL MBEN_NSAL'.split())
     conn = bd.conn()
     
     for k in estados:
@@ -385,15 +386,15 @@ def progressividadeCidades(estados):
                 uff = k
 
             results = results.append({'UF': str.upper(uff), 'COD2010': (str(uf) + str(i)), 'COD2000': str(cod[0]),
-                                      'GINI(G)': g, 'PARCELA(CH)': ch1, 'P_TOTAL': p1, 'P_1SAL': p2, 
-                                      'P_NSAL': p3, 'MRENDA': mRendaTot, 'MBEN_TOT': mBenTot, 'MBEN_1SAL': mBen1Sal,
-				      'MBEN_NSAL': mBenNsal}, ignore_index = True) 
+                                      'GINI(G)': g, 'PARCELA(CH)': ch1, 'P_TOTAL': p1, 'CH_1SAL': ch2,'P_1SAL': p2, 
+                                      'CH_NSAL':ch3, 'P_NSAL': p3, 'MBEN_TOT': mBenTot/mRendaTot, 'MBEN_1SAL': mBen1Sal/mRendaTot,
+				      'MBEN_NSAL': mBenNsal/mRendaTot}, ignore_index = True) 
 
     results = results.fillna(0)
     
     af = {'UF':'first', 'COD2010': lambda x: x.tolist(), 'COD2000':'first', 
-          'GINI(G)':'mean', 'PARCELA(CH)':'mean', 'P_TOTAL':'mean', 'P_1SAL':'mean',
-          'P_NSAL':'mean', 'MRENDA':'mean', 'MBEN_TOT':'mean', 'MBEN_1SAL':'mean', 'MBEN_NSAL':'mean' }
+          'GINI(G)':'mean', 'PARCELA(CH)':'mean', 'P_TOTAL':'mean', 'CH_1SAL':'mean', 'P_1SAL':'mean',
+          'CH_NSAL':'mean', 'P_NSAL':'mean', 'MBEN_TOT':'mean', 'MBEN_1SAL':'mean', 'MBEN_NSAL':'mean' }
     
     results = results.groupby('COD2000').aggregate(af)
     results.drop('COD2000', axis = 1, inplace = True)
