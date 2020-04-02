@@ -1,0 +1,5 @@
+pandas
+numpy
+xlrd
+xlwt
+psycopg2
